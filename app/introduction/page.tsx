@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 // 普通函数，接收 router 作为参数
-export function backToMain(router: ReturnType<typeof useRouter>) {
+function backToMain(router: ReturnType<typeof useRouter>) {
     router.push('/');
 }
 export default function LanranIntro() {

@@ -6,7 +6,6 @@ import {backToMain} from "@/app/utils/navigation";
 import {useRouter} from "next/navigation";
 export default function DonglanDyePage() {
     const router = useRouter();
-    const index=1;
     function goto(router: ReturnType<typeof useRouter>,destination:string) {
         router.push("/"+destination)
     }

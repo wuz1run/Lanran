@@ -1,22 +1,15 @@
 "use client";
 // pages/index.js
-import Head from 'next/head';
 import Image from "next/image";
 import {backToMain} from "@/app/utils/navigation";
 import {useRouter} from "next/navigation";
 // ... 已有代码 ...
 export default function DonglanDyePage() {
     const router = useRouter();
-    const index=1;
-    function goto(router: ReturnType<typeof useRouter>,destination:string) {
-        router.push("/"+destination)
-    }
+
     return (
 
         <div className="min-h-screen bg-white">
-            <Head>
-                {/* ... 已有代码 ... */}
-            </Head>
 
             <div className="flex flex-col md:flex-row min-h-screen">
                 {/* 修改为占满宽度 */}
