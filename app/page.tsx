@@ -137,7 +137,7 @@ export default function DigitalHeritagePlatform() {
                 <div className="px-2 pt-2 pb-3 space-y-1">
                   <button
                       onClick={() => {
-                        handleNavClick("/about")
+                        handleNavClick("/introduction")
                         setIsMenuOpen(false)
                       }}
                       className="text-white hover:text-blue-200 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200 hover:bg-white/10 rounded-md"
@@ -155,12 +155,12 @@ export default function DigitalHeritagePlatform() {
                   </button>
                   <button
                       onClick={() => {
-                        handleNavClick("/cultivation")
+                        handleNavClick("/procedure")
                         setIsMenuOpen(false)
                       }}
                       className="text-white hover:text-blue-200 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200 hover:bg-white/10 rounded-md"
                   >
-                    种蓝制靛
+                    工艺流程
                   </button>
                   <button
                       onClick={() => {
@@ -169,25 +169,16 @@ export default function DigitalHeritagePlatform() {
                       }}
                       className="text-white hover:text-blue-200 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200 hover:bg-white/10 rounded-md"
                   >
-                    编制布料
+                    纹样集锦
                   </button>
                   <button
                       onClick={() => {
-                        handleNavClick("/dyeing")
+                        handleNavClick("/creatures")
                         setIsMenuOpen(false)
                       }}
                       className="text-white hover:text-blue-200 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200 hover:bg-white/10 rounded-md"
                   >
-                    浸染上色
-                  </button>
-                  <button
-                      onClick={() => {
-                        handleNavClick("/finishing")
-                        setIsMenuOpen(false)
-                      }}
-                      className="text-white hover:text-blue-200 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200 hover:bg-white/10 rounded-md"
-                  >
-                    后续处理
+                    品牌共创
                   </button>
                 </div>
               </div>
@@ -255,13 +246,13 @@ export default function DigitalHeritagePlatform() {
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-6 md:space-y-8">
               <div
                   className="text-white text-6xl md:text-8xl font-light tracking-wider drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
-                  style={{ fontFamily: "隶书" }}
+                  style={{ fontFamily: "LISS" }}
               >
                 蓝
               </div>
               <div
                   className="text-white text-6xl md:text-8xl font-light tracking-wider drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
-                  style={{ fontFamily: "隶书" }}
+                  style={{ fontFamily: "LISS" }}
               >
                 染
               </div>

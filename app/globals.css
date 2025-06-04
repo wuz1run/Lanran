@@ -120,3 +120,8 @@
     @apply bg-background text-foreground;
   }
 }
+@font-face {
+  font-family: 'LISS';
+  src: url('/fonts/SIMLI.ttf') format('truetype');
+  font-display: swap;
+}

@@ -29,7 +29,7 @@ export default function LanranIntro() {
                     <h2 className="text-[#1e3a8a] font-bold text-4xl border-b border-[#1e3a8a] inline-block pb-1 mx-auto block text-center" style={{ fontFamily: '宋体' }}>
                         蓝染——千年草木智慧
                     </h2>
-                    <p className="leading-relaxed text-[32px]" style={{ fontFamily: '隶书' }}>
+                    <p className="leading-relaxed text-[32px]" style={{ fontFamily: 'LISS' }}>
                         以天然蓝靛为彩，与时光对话的手艺。通过扎结、浸染、氧化，
                         在棉麻上留下独一无二的冰纹与渐变。
                         从中国侗族的蓝染秘方到日本德岛的阿波蓝，
@@ -40,7 +40,7 @@ export default function LanranIntro() {
                 <button
                     onClick={() => backToMain(router)}
                     className="fixed bottom-6 right-6 bg-[#1e3a8a] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-900 transition"
-                    style={{ fontFamily: '隶书' }}
+                    style={{ fontFamily: 'LISS' }}
                 >
                     返回首页
                 </button>

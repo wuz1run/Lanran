@@ -136,7 +136,7 @@ export default function LanranPage() {
             <br></br> <br></br> <br></br> <br></br>
             {/* 底部标语 */}
             <div className="mt-10 text-center align-bottom text-4xl font-semibold text-[#1E386B]"
-                 style={{fontFamily:"隶书"}}>
+                 style={{fontFamily:"LISS"}}>
                 让非遗可穿戴，让国宝可拥抱，让传统与当代温暖相拥。
             </div>
         </>
@@ -153,7 +153,7 @@ export default function LanranPage() {
             <button
                 onClick={() => backToMain(router)}
                 className="fixed bottom-6 right-6 bg-[#1e3a8a] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-900 transition"
-                style={{ fontFamily: '隶书' }}
+                style={{ fontFamily: 'LISS' }}
             >
                 返回首页
             </button>
