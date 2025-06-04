@@ -16,14 +16,14 @@ const steps = [
         title: "浸染上色",
         image: "/images/step2.jpg",
         alt: "浸染上色 - 传统染色工艺",
-        description: "将织物多次浸泡在染液中，通过空气氧化使其上色并呈现蓝色。",
+        description: "将织物重复多次的浸泡染液中，经过捶打、蒸发、氧化、晾干环节，形成具备特色的蓝染布\n",
         goto:"step2"
     },
     {
         title: "编织布料",
         image: "/images/step3.jpg",
         alt: "编织布料 - 传统织布工艺",
-        description: "将染色后的线纱进行编织，形成具有民族特色的蓝染布。",
+        description: "将用纺织机将棉线条编织成布，裁剪成合适的形制。",
         goto:"step3"
     },
     {
