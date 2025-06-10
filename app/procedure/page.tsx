@@ -57,7 +57,7 @@ export default function IndigoDyeingProcess() {
                         <p className="text-base opacity-90">DONGYUNLANRAN</p>
                     </div>
                 </div>
-                <nav className="text-4xl font-medium" style={{fontFamily:"LISS"}}>蓝靛染 ● 工艺流程</nav>
+                <nav className="text-4xl font-medium" style={{fontFamily:"隶书"}}>蓝靛染 ● 工艺流程</nav>
             </header>
 
             {/* Timeline */}
@@ -85,11 +85,10 @@ export default function IndigoDyeingProcess() {
                                     height={280}
                                     className="rounded-3xl shadow-2xl"
                                 />
-                                {/* 悬浮提示 */}
-                                <div
+                                {/* 悬浮提示 */}                                <div
                                     className="pointer-events-none absolute z-50 hidden group-hover:block max-w-xs bg-black bg-opacity-80 text-white text-md rounded-md p-3
                 -top-24 left-1/2 -translate-x-1/2 drop-shadow-lg"
-                                    style={{ whiteSpace: "normal" ,fontFamily:"LISS" }}
+                                    style={{ whiteSpace: "normal" ,fontFamily:"隶书" }}
                                 >
                                     {step.description}
                                     <div className="absolute bottom-[-8px] left-1/2 -translate-x-1/2 w-4 h-4 bg-black bg-opacity-80 rotate-45"></div>
@@ -97,7 +96,7 @@ export default function IndigoDyeingProcess() {
                             </div>
 
                             {/* 标题，容器变高一点 */}
-                            <div className="bg-blue-600 hover:bg-blue-500 transition-colors duration-300 px-10 py-6 rounded-full text-2xl font-medium shadow-lg max-w-xs text-center" style={{fontFamily:"LISS"}}>
+                            <div className="bg-blue-600 hover:bg-blue-500 transition-colors duration-300 px-10 py-6 rounded-full text-2xl font-medium shadow-lg max-w-xs text-center" style={{fontFamily:"隶书"}}>
                                 {step.title}
                             </div>
                         </div>

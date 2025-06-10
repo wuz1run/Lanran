@@ -121,7 +121,7 @@
   }
 }
 @font-face {
-  font-family: 'LISS';
-  src: url('/fonts/SIMLI.ttf') format('truetype');
+  font-family: '隶书';
+  src: url('/public/fonts/SIMLI.TTF') format('truetype');
   font-display: swap;
 }

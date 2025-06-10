@@ -1,0 +1,7 @@
+{
+	"_comment": "填写username(学号),password,server酱的key(可选),服务器的ip(可选)",
+	"username":"",
+	"password":"",
+	"key": "",
+	"server": ""
+}

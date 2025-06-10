@@ -124,18 +124,17 @@ export default function DonglanDyePage() {
 
                         {/* 板蓝根介绍 */}
 
-                    </div>
-                    <button
+                    </div>                    <button
                         onClick={() => backToMain(router)}
                         className="fixed bottom-6 right-6 bg-[#1e3a8a] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-900 transition"
-                        style={{ fontFamily: 'LISS' }}
+                        style={{ fontFamily: '隶书' }}
                     >
                         返回首页
                     </button>
                     <button
                         onClick={() => goto(router, 'step2')}
                         className="fixed bottom-6 right-205 bg-[#1e3a8a] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-900 transition"
-                        style={{ fontFamily: 'LISS' }}
+                        style={{ fontFamily: '隶书' }}
                     >
                         下一页
                     </button>

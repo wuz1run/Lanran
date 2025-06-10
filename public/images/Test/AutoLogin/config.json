@@ -1,0 +1,7 @@
+{
+	"_comment": "填写username,password,server酱的key(可选),服务器的ip(可选)",
+	"username":"2307020209",
+	"password":"Wuzirun371329@",
+	"key": "SCT278822TQdPbMWZneJeniBa62CKO0eWl",
+	"server": "http://1.92.145.62:5000/update"
+}

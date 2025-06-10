@@ -246,13 +246,13 @@ export default function DigitalHeritagePlatform() {
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-6 md:space-y-8">
               <div
                   className="text-white text-6xl md:text-8xl font-light tracking-wider drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
-                  style={{ fontFamily: "LISS" }}
+                  style={{ fontFamily: "隶书" }}
               >
                 蓝
               </div>
               <div
                   className="text-white text-6xl md:text-8xl font-light tracking-wider drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
-                  style={{ fontFamily: "LISS" }}
+                  style={{ fontFamily: "隶书" }}
               >
                 染
               </div>
